@@ -2,14 +2,50 @@
 
 
 body {
-    background-image:url(images/flying.jpg);
-    background: #ebebeb none repeat scroll 0 0;
-    color: #7d7d7d;
-    font-family: "Open Sans",sans-serif;
-    font-size: 15px;
-    font-weight: 300;
-    line-height: 1.6em;
+  background-image: url("././images/flying.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.98;
+  background-attachment: fixed;
+/*  background: #ebebeb none repeat scroll 0 0;*/
+  color: #7d7d7d;
+  font-family: "Open Sans",sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.6em;
 }
+
+
+#sidebar {
+  position: fixed;
+  text-align:center;
+  width: 150px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #384047;
+  opacity: 0.98
+}
+
+#sidebar ul {
+    list-style: outside none none;
+    padding-left: 0;
+}
+
+
+
+.fa  {
+  font-size: 25px;
+  margin: 20px
+}
+
+
+#page-content {
+  margin-left: 300px;
+  position: static;
+}
+
+
 
 .container {
     margin: 0 auto;
@@ -62,6 +98,10 @@ p {
 
 td p {
   padding: 5px
+}
+
+.album-style p {
+  text-align: justify
 }
 
 
@@ -132,5 +172,16 @@ a.btn-blue:hover {
   margin:50px
 }
 
-#F1F6FB
- #EBEBEB;
+
+.footer .fa {
+  font-size: 15px
+}
+
+#sidebar a .fa {
+  color:white;
+}
+
+#sidebar a .fa:hover {
+  color:#F8D64E;
+}
+

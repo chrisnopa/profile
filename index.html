@@ -1,7 +1,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Ma page perso/title>
+    <title>Ma page perso</title>
 
     <!-- Google fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">
@@ -13,9 +13,24 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+  <div id="sidebar">
+    <ul>
+      <li>
+        <a href="#summary">
+          <i class="fa fa-info-circle" aria-hidden="true"></i>
+        </a>
+      </li>
 
+
+      <li>
+        <a href="#music-albums">
+      <i class="fa fa-music" aria-hidden="true"></i></a></li>
+      <li><a href="#footer"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+    </ul>
+  </div>
+  <div id="page-content">
     <div class="container">
-      <div class="card text-center">
+      <div id="summary" class="card text-center">
          <img src="images/chris.jpeg" class="img-circle" alt="mon image de profil">
     <h1>Christophe Panon</h1>
       <h3>
@@ -27,7 +42,7 @@
     <p>
       Post haec Gallus Hierapolim profecturus ut expeditioni specie tenus adesset, Antiochensi plebi suppliciter obsecranti ut inediae dispelleret metum, quae per multas difficilisque causas adfore iam sperabatur, non ut mos est principibus, quorum diffusa potestas localibus subinde medetur aerumnis, disponi quicquam statuit vel ex provinciis alimenta transferri conterminis, sed consularem Syriae Theophilum prope adstantem ultima metuenti multitudini dedit id adsidue replicando quod invito rectore nullus egere poterit victu.
     </p>
-    <a class="btn-blue" href="https://github.com/chrisnopa">Visiter mon profil Github (vide)</a>
+    <a class="btn-blue" href="https://github.com/chrisnopa">Mon profil Github</a>
       </div>
       <div class="card text-center">
          <p>
@@ -48,7 +63,7 @@
       </li>
     </ul>
       </div>
-      <div class="card text-center">
+      <div id="music-albums" class="card text-center">
          <h2 class="card-title">My favorite albums on heavy rotation this week</h2>
     <table>
       <tbody>
@@ -59,7 +74,7 @@
               <p>
                 dispelleret metum, quae per multas difficilisque causas adfore iam sperabatur, non ut mos est principibus, quorum diffusa potestas
               </p>
-              <a href="#">Le lien</a>
+
           </td>
           <td class= "album-style">
             <img src="images/test.jpg" class="img-album" alt="">
@@ -67,7 +82,7 @@
             <p>
               dispelleret metum, quae per multas difficilisque causas adfore iam sperabatur, non ut mos est principibus, quorum diffusa potestas
             </p>
-            <a href="#">Le lien</a>
+
           </td>
           <td class= "album-style">
             <img src="images/avishai.png" class="img-album" alt="">
@@ -75,7 +90,7 @@
             <p>
               dispelleret metum, quae per multas difficilisque causas adfore iam sperabatur, non ut mos est principibus, quorum diffusa potestas
             </p>
-            <a href="#">Le lien</a>
+
 
           </td>
         </tr>
@@ -83,28 +98,28 @@
     </table>
       </div>
 
-      <div class="card">
+      <div id="footer" class="card">
         <h2 class="text-center card-title">Quelques sites cools</h2>
       <p>
         Aucune grande nouveauté ici...Je ne sais pas trop comment les introduire, alors je vous laisse y aller et profiter :p
         ps: j'ai pas fini de peaufiner le style, sorry...
       </p>
-    <ul>
+    <ul class="footer">
       <li>
-        <a href="http://www.lemellotron.com/">
-          <i class="fa fa-headphones" aria-hidden="true">Le Mellotron</i>
+        <i class="fa fa-headphones" aria-hidden="true"></i>
+          <a href="http://www.lemellotron.com/">Le Mellotron</a>
         </li>
       <li>
-        <a href="https://www.tsugi.fr/">
-          <i class="fa fa-headphones" aria-hidden="true">Tsugi</i>
+        <i class="fa fa-headphones" aria-hidden="true"></i>
+          <a href="https://www.tsugi.fr/">Tsugi</a>
         </li>
       <li>
-        <a href="http://www.delicieuse-musique.com/">
-          <i class="fa fa-headphones" aria-hidden="true">Délicieuse Musique</i>
+        <i class="fa fa-headphones" aria-hidden="true"></i>
+          <a href="http://www.delicieuse-musique.com/">Délicieuse Musique</a>
         </li>
       </div>
     </div>
-
+  </div>
     <!-- Here goes your content -->
 
   </body>
