@@ -1,0 +1,136 @@
+/* Here goes your CSS */
+
+
+body {
+    background-image:url(images/flying.jpg);
+    background: #ebebeb none repeat scroll 0 0;
+    color: #7d7d7d;
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.6em;
+}
+
+.container {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.card {
+    background: white none repeat scroll 0 0;
+/*    white none repeat scroll 0 0;
+*/    border-radius: 4px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    margin:8px;
+    padding: 20px;
+}/* Here goes your CSS */
+
+
+.card-title {
+  padding:15px;
+}
+
+.text-center {
+  text-align:center;
+  margin: 8px
+}
+
+
+
+img {
+  width: 200px;
+}
+
+/*image big pour mon image de progil*/
+.img-circle {
+  width: 250px;
+  border-radius: 50%;
+  padding:15px;
+}
+
+.img-album {
+  marg
+  border-radius: 5%;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size:15px;
+  line-height: 25px;
+  font-weight: 350;
+}
+
+td p {
+  padding: 5px
+}
+
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  line-height: 15px;
+}
+
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 350;
+}
+
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  line-height: 20px;
+  font-weight: 350;
+}
+
+a {
+  color:#00247C;
+  text-decoration: none
+}
+
+a:hover {
+  border-color: #333;
+  border-radius: 50%;
+  color: #2195DA
+}
+
+ul {
+  list-style-type: none;
+}
+
+.list-inline li{
+  display: inline-block;
+  margin: 10px;
+  padding: 0px 15px;
+}
+
+.album-style {
+/*padding: 25px;*/
+margin: 5px
+}
+
+a.btn-blue{
+  background-color:#F1F6FB;
+  border-radius: 4px;
+  color: #2195DA;
+  font-weight: 500;
+  padding: 10px;
+  }
+
+a.btn-blue:hover {
+  border-color: #333;
+  background-color:#EBEBEB;
+  color: #2195DA
+}
+
+.fa fa-headphones {
+  margin:50px
+}
+
+#F1F6FB
+ #EBEBEB;
